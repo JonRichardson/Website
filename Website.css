@@ -1,0 +1,69 @@
+h1, h2, h3 {
+  text-align: center;
+}
+h1 {
+  font-size: 40pt;
+}
+
+h3 {
+  font-size: 30pt;
+  font-family: Verdona;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+body  {
+   background-image: url("http://www.utmosttiling.co.uk/assets_d/51462/web_media/3ds_website-background-tiled_100.jpg");
+   background-repeat: repeat;
+ }
+
+p::first-letter {
+  font-size: 30pt;
+}
+
+.Country {
+  width: 800px;
+  display: block;
+  margin: auto;
+  border: 10px solid black;
+}
+
+td > a > img {
+  width: auto;
+  height: 250px;
+  border: 8px solid black;
+  border-radius: 15px;
+
+}
+
+td > p {
+  text-align: center;
+  font-size: 15pt;
+}
+
+table  {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 15pt;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 20pt;
+}
